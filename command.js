@@ -6,7 +6,7 @@ const commands = [
     description: 'Replies with Pong!',
   },
 ];
-const rest = new REST({ version: '10' }).setToken(    "MTE1Njg1OTg0OTI0Njc2OTIxMg.Gxb3wO.tNjOqYQIORMgl8st2imXtZG2vdSuuIjRMirwug"
+const rest = new REST({ version: '10' }).setToken(   "TOKEN GENERATED"
 );
 
 (async()=>{
@@ -14,7 +14,7 @@ const rest = new REST({ version: '10' }).setToken(    "MTE1Njg1OTg0OTI0Njc2OTIxM
 try {
     console.log('Started refreshing application (/) commands.');
   
-    await rest.put(Routes.applicationCommands("1156859849246769212"), { body: commands });
+    await rest.put(Routes.applicationCommands("CLIENT ID"), { body: commands });
   
     console.log('Successfully reloaded application (/) commands.');
   } catch (error) {
