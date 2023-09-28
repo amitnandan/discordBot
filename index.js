@@ -26,7 +26,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds , GatewayIntentBi
  })
 
  client.login(
-    "MTE1Njg1OTg0OTI0Njc2OTIxMg.Gxb3wO.tNjOqYQIORMgl8st2imXtZG2vdSuuIjRMirwug"
+    "AUTH_TOKEN"
  )
 
 
